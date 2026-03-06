@@ -1,0 +1,30 @@
+SHortcuts:
+
+king queen "Joker" - Terminal - ctrl+J
+
+cls / clear - OS Terminal specific
+
+spell check - Alt+fn+f7
+
+terraform apply "--auto-approve" [Flag]
+
+snipping tool = window+shift+S
+
+Text Extractor = window+shift+T
+
+code comment out "#" - ctrl+?/
+
+-----------------------------------------------------------
+
+resource "azurerm_resource_group" "merimarzi" {
+  name     = "myfirstrg"      # Attribute = Arguments(value)
+  location = "eastus"         # Attribute = Arguments(value)
+}
+
+---------------------Errors
+Error: Unsupported Attribute
+Error: Invalid value for input variable
+--------------------
+
+features {} AzureRM provider ke liye required block hai. kyu hai? / kyu use hota hai?
+
