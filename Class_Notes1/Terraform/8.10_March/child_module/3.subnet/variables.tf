@@ -7,3 +7,4 @@ variable "subnet" {
     address_prefixes = list(string)
   })
 }
+

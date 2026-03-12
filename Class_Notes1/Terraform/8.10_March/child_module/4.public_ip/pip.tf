@@ -7,7 +7,3 @@ resource "azurerm_public_ip" "pip" {
   idle_timeout_in_minutes = var.pip.idle_timeout_in_minutes
   sku                     = var.pip.sku
 }
-
-output "public_ip" {
-  value = azurerm_public_ip.pip.id
-}

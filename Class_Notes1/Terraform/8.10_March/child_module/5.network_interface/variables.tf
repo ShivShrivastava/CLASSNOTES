@@ -13,6 +13,6 @@ variable "nic" {
   })
 }
 
-variable "subnet_id" {}
+variable "subnet_id" {} # Output Block Variable
 
-variable "public_ip" {}
+variable "public_ip" {} # Output Block Variable

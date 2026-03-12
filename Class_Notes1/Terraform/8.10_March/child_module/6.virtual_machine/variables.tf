@@ -1,4 +1,4 @@
-variable "vm" {
+variable "vm" { # Global Variable
   type = object({
     vm_name                         = string
     rg_name                         = string
@@ -22,4 +22,4 @@ variable "vm" {
   })
 }
 
-variable "nic_id" {}
+variable "nic_id" {} # Outputt Variable
